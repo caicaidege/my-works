@@ -217,6 +217,7 @@ nav a:hover {
 }
 
 
+
 /*news*/
 
 .news {
@@ -229,14 +230,17 @@ nav a:hover {
     border-bottom: 2px solid #e8e8e8;
 }
 
-.title h2 a {
+.title h2{
     width: 100px;
+    float: left;
+    padding-left: 20px;
+}
+.title h2 a {
     font: 14px bold;
     line-height: 35px;
-    color: #000;
-    float: left;
+    color: #786F66;   
     text-align: left;
-    padding-left: 20px;
+    
 }
 
 .title a {
@@ -274,7 +278,8 @@ nav a:hover {
     margin-top: 20px;
 }
 
-.news_list li ,.news_lists li{
+.news_list li,
+.news_lists li {
     list-style-type: none;
     background: url(images/list.jpg) no-repeat;
     border-bottom: 1px dotted #ccc;
@@ -282,16 +287,19 @@ nav a:hover {
     margin: 8px;
 }
 
-.news_list li a,.news_lists li a{
+.news_list li a,
+.news_lists li a {
     color: #000;
 }
 
-.news_list li a:hover,.news_lists li a:hover,
+.news_list li a:hover,
+.news_lists li a:hover,
 .course_list a:hover {
     color: #f00;
 }
 
-.news_list li span ,.news_lists li span{
+.news_list li span,
+.news_lists li span {
     color: #999;
     float: right;
 }
@@ -340,9 +348,9 @@ nav a:hover {
 }
 
 
-/**/
+/*siderbar*/
 
-siderbar .siderbar {
+.siderbar {
     width: 230px;
     border: 1px solid #e8e8e8;
 }
@@ -396,11 +404,10 @@ footer {
 
 /*ad*/
 
+
 /*main list*/
 
-.main_list {
-    background-color: #fff;
-}
+.main_list {}
 
 .news_type {
     width: 220px;
@@ -408,10 +415,12 @@ footer {
     float: left;
 }
 
-.news_lists,.news_detail {
+.news_lists,
+.news_detail {
     width: 770px;
     border: 1px solid #8e8e8e;
     float: right;
+    margin-bottom: 10px;
 }
 
 
@@ -434,96 +443,97 @@ footer {
     height: 30px;
     line-height: 30px;
     background-color: #f5f5f5;
-    padding-left:5px;
+    padding-left: 5px;
 }
 
 .news_type li a {
     display: block;
     color: #666;
     line-height: 30px;
-    background: url(images/li_bg.gif)  left center no-repeat;
-    padding-left:15px;
+    background: url(images/li_bg.gif) left center no-repeat;
+    padding-left: 15px;
 }
 
 .news_type li a:hover {
     color: #009cdf;
-    background-color:#f2f2f2;
-    background: url(images/li_bg2.gif)  left center no-repeat;
-    background-color:#ccc;
+    background-color: #f2f2f2;
+    background: url(images/li_bg2.gif) left center no-repeat;
+    background-color: #ccc;
 }
 
-.news_lists h2,.news_detail h2{
-    height:32px;
-    line-height:32px;
-    background-color:#f5f5f5;
-    padding-left:20px;
+.news_lists h2,
+.news_detail h2 {
+    height: 32px;
+    line-height: 32px;
+    background-color: #f5f5f5;
+    padding-left: 20px;
     border-bottom: 3px solid #f55;
 }
+
 .news_detail h2 a,
-.news_lists a{
-    font-size:14px;
-    color:#666;
+.news_lists a {
+    font-size: 14px;
+    color: #666;
 }
 
 .news_detail h2 a:hover,
-.news_type a:hover,.news_lists h2 a:hover{
-    color:#c00;
+.news_type a:hover,
+.news_lists h2 a:hover {
+    color: #c00;
 }
 
-.page{
-    height:40px;
-    margin-top:10px;
-    margin-bottom:10px;
-    text-align:center;
+.page {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.page a{
+.page a {
     display: inline-block;
     border: 1px solid #e8e8e8;
-    margin:5px;
-    padding:5px 10px;
+    margin: 5px;
+    padding: 5px 10px;
 }
 
-.page a:hover{
-    color:#fff;
-    background-color:#c00;
+.page a:hover {
+    color: #fff;
+    background-color: #c00;
 }
-
 
 
 /*news content*/
 
-.news_detail h3{
-    font-size:20px;
-    text-align:center;
-    margin:10px 0;
+.news_detail h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
 }
 
-.news_detail_info{
-    color:#666;
-    text-align:center;
-    border-bottom:1px dotted #666;
+.news_detail_info {
+    color: #666;
+    text-align: center;
+    border-bottom: 1px dotted #666;
 }
 
-.news_content{
-    padding:20px;
-    
+.news_content {
+    padding: 20px;
 }
 
-.news_content p{
-    font-size:14px;
+.news_content p {
+    font-size: 14px;
     text-indent: 2em;
-    line-height:1.8em;
+    line-height: 1.8em;
 }
 
-.news_content p b{
-    font-size:16px;
+.news_content p b {
+    font-size: 16px;
 }
 
-.news_content img{
-    display:block;
-    width:500px;
-    height:420px;
-    text-align:center;
-    margin:10px auto;
+.news_content img {
+    display: block;
+    width: 500px;
+    height: 420px;
+    text-align: center;
+    margin: 10px auto;
 }
