@@ -62,7 +62,9 @@ nav a {
     color: #3b3b3b;
     margin-left: 50px;
 }
-
+nav a:hover{
+    text-decoration: underline;
+}
 /*banner*/
 .banner{
     width: 100%;
@@ -236,10 +238,6 @@ nav a {
     margin-top: 80px;
 }
 
-
-.menu-gallery .menu-panel-header h3{
-    display: inline-block;
-}
 .food-list{
     overflow: hidden;
 }
@@ -276,6 +274,9 @@ nav a {
 .menu-gallery{
     margin-top: 200px;
 }
+.menu-gallery .menu-panel-header h3{
+    display: inline-block;
+}
 .food-gallery{
     margin: 132px 0 200px 0;
     font-size: 0;/*解决div之间的间隙问题*/
@@ -300,11 +301,6 @@ nav a {
 .pic-col-l{
     width: 460px;
 }
-.food-gallery image{
-    /*vertical-align:;*/
-}
-
-
 
 /*footer*/
 footer{
@@ -325,6 +321,9 @@ footer{
 }
 .w-290 a{
     color: #ffffff;
+}
+.w-290 a:hover{
+    text-decoration: underline;
 }
 .w-204{
     width: 204px;
