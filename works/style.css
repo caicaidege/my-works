@@ -1,5 +1,5 @@
 /*reset style*/
-body, h1, h2, h3, p {
+body, h1, h2, h3, p{
     margin: 0;
     padding: 0;
 }
@@ -21,6 +21,9 @@ a {
 
 ul {
     list-style-type: none;
+}
+ul,ol{
+    margin: 0;
 }
 
 img {
@@ -95,7 +98,7 @@ header nav a {
 
 header nav a:hover {
     color: #1989fa;
-    background-color: rgba(255,255,255,.6);
+    background-color: rgba(255, 255, 255, .6);
 }
 
 #page {
@@ -169,22 +172,23 @@ header nav a:hover {
     display: block;
 }
 
-.panel-header, .panel p {
+.panel-header, .panel p,.info h3 {
     padding: 0 20px;
 }
 
+.info ol ,.panel ol{
+    padding-right: 20px;
+}
 .panel-header {
     line-height: 2.5rem;
     background-color: #1989fa;
     color: #ffffff;
     border-radius: 4px 4px 0 0;
 }
-.contact,.education{
-    height: 10rem;
-}
+
 
 .more {
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 /*works section*/
