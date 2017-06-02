@@ -188,7 +188,12 @@ header nav a:hover {
 
 
 .more {
-    /*color: #ffffff;*/
+    display: block;
+    width: 6rem;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #1989fa;
+    margin-top: 10px;
 }
 
 /*works section*/
