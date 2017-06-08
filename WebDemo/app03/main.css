@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: #eee;
+}
+
+li {
+    list-style-type: none
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu {
+    width: 200px;
+    background-color: #e2e2e3;
+    /*border: 2px solid #ff0000;*/
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.top-title{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-indent: 20px;
+}
+.menu li{
+    height: 30px;
+    line-height: 30px;
+    text-indent: 20px;
+    z-index: 1;
+}
+
+.menu li:hover{
+    background-color: #ffffff;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu{
+    display: none;
+    width: 715px;
+    position: absolute;
+    left: 200px;
+    top:40px;
+    z-index: 2;
+}
+.subL{
+    width: 500px;
+    float: left;
+    margin-right: 5px;
+    background-color: #ffffff;
+}
+.subL dl{
+    overflow: hidden;
+}
+.subL dl dt{
+    line-height: 22px;
+    width: 100px;
+    float: left;
+    font-weight: bold;
+}
+.subL dl dd{
+    line-height: 22px;
+    width: 400px;
+    float: left;
+    margin: 0;
+    text-indent: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ccc;
+}
+.subR{
+    width: 200px;
+    float: right;
+    background-color: #ffffff;
+}
