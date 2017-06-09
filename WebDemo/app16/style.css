@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.list{
+	
+	float: right;
+	padding-top: 10px; 
+}
+
+.box{
+	width: 789px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.list-box{
+	margin: 0 auto;
+	width: 700px;
+	height: 42px;
+	border-bottom: 1px solid #eee;
+}
+
+.list-box ul li{
+	width: 30px;
+	height: 26px;
+	float: left;
+	background: url('listype-icon.png');
+	cursor: pointer;
+}

@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0
+	width: 100vw;
+	height: 100vh;
+	background-color: #eee;
+	font-family: Verdana,Georgia, "Times New Roman", 
+             "Microsoft YaHei", "微软雅黑", 
+             STXihei, "华文细黑", 
+             serif;
+}
+aside{
+	max-width: 700px;
+	width: 25%;
+	height: 100vh;
+	display: block;
+	position: fixed;
+	background-color: #111;
+	float: left;
+	text-align: center;
+	color: #fff;
+}
+
+main{
+	float: left;
+	width: 75%;
+	margin-left: 25%;
+}
+.content-wrapper{
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:5px solid #fff;
+	margin-top: 100px;
+}
+
+p{
+	text-indent: 2em;
+	line-height: 1.5em;
+}
