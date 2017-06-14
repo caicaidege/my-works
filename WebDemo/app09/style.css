@@ -74,6 +74,7 @@ a {
     height: 480px;
     background-color: #fff;
     display: none;
+    overflow: hidden;
 }
 
 .menu-item:hover .submenu {
@@ -142,4 +143,3 @@ a {
 .submenu-logo a{
     display: block;
 }
-
